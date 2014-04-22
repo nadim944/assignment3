@@ -176,18 +176,20 @@ summary {
 }
 
 .social-media {
-    width: 60px;
+    padding: 3rem 10% 0;
+    overflow: hidden;
+}
+
+.social-media a {
+    float: left;
+    width: 30%;
     padding: 0;
-    margin: 1.5rem 7.5% 1.5rem 5%;
+    margin: 0 5% 0 0;
     display: inline-block;
 }
 
-.social-media:nth-child(3){
-    float: right;
-}
-
-.social-media-box {
-    text-align:center;
+.social-media a:nth-child(3){
+    margin: 0;
 }
 
 .info {
@@ -209,6 +211,7 @@ footer {
     background-color:#8D5E19;
     margin: 1.5rem auto;
     height: 15rem;
+    overflow: hidden;
 }
 
 ul {
@@ -268,8 +271,3 @@ ul {
 .featured {
     clear: both;
 }
-
-
-
-
-
