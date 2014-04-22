@@ -209,7 +209,6 @@ summary {
     
 footer {
     background-color:#8D5E19;
-    /*overflow:hidden;*/
     margin: 1.5rem auto;
     height: 15rem;
 }
@@ -235,7 +234,6 @@ ul {
 .unit-s-1-2 {
     width: 50%;   
 }
-
 
 .unit-s-1-3 {
     width: 33.333%;
